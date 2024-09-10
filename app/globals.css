@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ukrycie paska przewijania dla przeglądarek opartych na WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Ukrycie paska przewijania dla Firefox */
+body {
+  scrollbar-width: none
+}
